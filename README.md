@@ -34,6 +34,53 @@ This project analyzes the Contoso sales dataset covering January 2015 to April 2
 - Which countries and states generate the highest revenue?
 
 ### Total sales revenue
+Query : [Total_sales_revenue](01_total_sales_revenue.sql)
+
+### Avg order value
+Query : [Avg_order_value](02_avg_order_value.sql)
+
+### Month over month revenue
+Query : [Month_over_revenue](03_month_over_month_revenue.sql)
+
+### Highest and Lowest revenue months
+Query : [Highest_and_Lowest_revenue_months](04_highest_lowest_revenue_months.sql)
+
+### Category wise revenue
+Query : [Category_wise_revenue](05_category_wise_revenue.sql)
+Query : [Category_wise_revenue_yearly](05a_category_wise_revenue_yearly.sql)
+
+### Subcategory wise revenue
+Query : [Subcategory_wise_revenue](06_subcategory_wise_revenue.sql)
+
+### High quantity low revenue
+Query : [High_quantity_low_revenue](07_high_quantity_low_revenue.sql)
+
+### Highest spending customers
+Query : [Highest_spending_customers](08_highest_spending_customer.sql)
+
+### Single order vs multiple order customers
+Query : [Single_order_vs_multiple_order_customers](09_single_order_vs_multiple_order.sql)
+
+### Revenue by age group
+Query : [Revenue_by_age_group](10_revenue_by_age_group.sql)
+
+### View
+Query : [View](11_view.sql)
+
+### Customer segmentation
+Query : [Customer_segmentation](12_customer_segmentation..sql)
+
+### Cohort analysis
+Query : [Cohort_analysis](13_cohort_analysis.sql)
+
+### Churned customers
+Query : [Churned_customers](14_churned_customers.sql)
+
+### Country wise revenue
+Query : [Country_wise_revenue](15_country_wise_revenue.sql)
+
+### State wise revenue
+Query : [State_wise_revenue](16_state_wise_revenue.sql)
 
 
 ## SQL Concepts Used

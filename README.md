@@ -34,13 +34,13 @@ This project analyzes the Contoso sales dataset covering January 2015 to April 2
 - Which countries and states generate the highest revenue?
 
 ### 1. Total sales revenue
-Query : [Total_sales_revenue](01_total_sales_revenue.sql)
+🖥️ Query : [Total_sales_revenue](01_total_sales_revenue.sql)
 
 ### 2. Avg order value
-Query : [Avg_order_value](02_avg_order_value.sql)
+🖥️ Query : [Avg_order_value](02_avg_order_value.sql)
 
 ### 3. Month over month revenue
-Query : [Month_over_revenue](03_month_over_month_revenue.sql)
+🖥️ Query : [Month_over_revenue](03_month_over_month_revenue.sql)
 
 **📈 Visualization:**
 
@@ -56,10 +56,10 @@ Query : [Month_over_revenue](03_month_over_month_revenue.sql)
 
 
 ### 4. Highest and Lowest revenue months
-Query : [Highest_and_Lowest_revenue_months](04_highest_lowest_revenue_months.sql)
+🖥️ Query : [Highest_and_Lowest_revenue_months](04_highest_lowest_revenue_months.sql)
 
 ### 5. Category wise revenue
-Query : [Category_wise_revenue](05_category_wise_revenue.sql)
+🖥️ Query : [Category_wise_revenue](05_category_wise_revenue.sql)
 
 **📈 Visualization:**
 
@@ -74,7 +74,7 @@ Query : [Category_wise_revenue](05_category_wise_revenue.sql)
     - Mid value: Cell phones ($247).
     - Low value ($26-$111): Audio ($111), Music/Movies/Audio Books ($104), Games and Toys ($26).
 
-Query : [Category_wise_revenue_yearly](05a_category_wise_revenue_yearly.sql)
+🖥️ Query : [Category_wise_revenue_yearly](05a_category_wise_revenue_yearly.sql)
 
 📊 **Key Findings:**
 - Revenue is cyclical, peaking at $32.0M in 2019 and $42.9M in 2022, with sharp drops in 2020 (-65%) and 2023 (-27%).
@@ -86,20 +86,20 @@ Query : [Category_wise_revenue_yearly](05a_category_wise_revenue_yearly.sql)
 
 
 ### 6. Subcategory wise revenue
-Query : [Subcategory_wise_revenue](06_subcategory_wise_revenue.sql)
+🖥️ Query : [Subcategory_wise_revenue](06_subcategory_wise_revenue.sql)
 
 **📈 Visualization:** 
 
 <img src="Image/06_subcategory_revenue.png" width=50%>
 
 ### 7. High quantity low revenue
-Query : [High_quantity_low_revenue](07_high_quantity_low_revenue.sql)
+🖥️ Query : [High_quantity_low_revenue](07_high_quantity_low_revenue.sql)
 
 ### 8. Highest spending customers
-Query : [Highest_spending_customers](08_highest_spending_customer.sql)
+🖥️ Query : [Highest_spending_customers](08_highest_spending_customer.sql)
 
 ### 9. Single order vs multiple order customers
-Query : [Single_order_vs_multiple_order_customers](09_single_order_vs_multiple_order.sql)
+🖥️ Query : [Single_order_vs_multiple_order_customers](09_single_order_vs_multiple_order.sql)
 
 **📈 Visualization:**
 
@@ -112,7 +112,7 @@ Query : [Single_order_vs_multiple_order_customers](09_single_order_vs_multiple_o
 
 
 ### 10. Revenue by age group
-Query : [Revenue_by_age_group](10_revenue_by_age_group.sql)
+🖥️ Query : [Revenue_by_age_group](10_revenue_by_age_group.sql)
 
 **📈 Visualization:**
 
@@ -127,10 +127,10 @@ Query : [Revenue_by_age_group](10_revenue_by_age_group.sql)
 
 
 ### 11. View
-Query : [View](11_view.sql)
+🖥️ Query : [View](11_view.sql)
 
 ### 12. Customer segmentation
-Query : [Customer_segmentation](12_customer_segmentation..sql)
+🖥️ Query : [Customer_segmentation](12_customer_segmentation..sql)
 
 **📈 Visualization:**
 
@@ -147,7 +147,7 @@ Query : [Customer_segmentation](12_customer_segmentation..sql)
 - Low-Value (2% revenue): Design re-engagement campaigns and price-sensitive promotions to increase purchase frequency
 
 ### 13. Cohort analysis
-Query : [Cohort_analysis](13_cohort_analysis.sql)
+🖥️ Query : [Cohort_analysis](13_cohort_analysis.sql)
 
 **📈 Visualization:**
 
@@ -164,7 +164,7 @@ Query : [Cohort_analysis](13_cohort_analysis.sql)
 - With both lowering LTV and decreasing customer acquisition, the company is facing a potential revenue decline.
 
 ### 14. Churned customers
-Query : [Churned_customers](14_churned_customers.sql)
+🖥️ Query : [Churned_customers](14_churned_customers.sql)
 
 **📈 Visualization:**
 
@@ -181,7 +181,7 @@ Query : [Churned_customers](14_churned_customers.sql)
 - Predict & preempt churn risk and use customer-specific warning indicators to proactively intervene with at-risk users before they lapse.
 
 ### 15. Country wise revenue
-Query : [Country_wise_revenue](15_country_wise_revenue.sql)
+🖥️ Query : [Country_wise_revenue](15_country_wise_revenue.sql)
 
 **📈 Visualization:**
 
@@ -194,7 +194,7 @@ Query : [Country_wise_revenue](15_country_wise_revenue.sql)
 - France and Italy are the weakest of the big European economies. Both have large populations, so the low revenue suggests room for growth.
 
 ### 16. State wise revenue
-Query : [State_wise_revenue](16_state_wise_revenue.sql)
+🖥️ Query : [State_wise_revenue](16_state_wise_revenue.sql)
 
 **📈 Visualization:**
 <img src="Image/16_state_wise_revenue.png" width=50%>
@@ -227,3 +227,8 @@ Query : [State_wise_revenue](16_state_wise_revenue.sql)
 - Date Analysis: `INTERVAL`, `EXTRACT()`
 - Calculations:  `NULLIF()`, `ROUND()`
 - Data transformation  `VIEW `, `TRIM()` and `CONCAT()`
+
+## Technical Details
+- **Database:** PostgreSQL
+- **Analysis Tools:** PostgreSQL, DBeaver, PGadmin
+- **Visualization:** ChatGPT, Claude AI
